@@ -206,7 +206,7 @@ const Home = () => {
           data-aos-offset="-900"
           className="wrapper section-heading text-center"
         >
-          How Our AI Company Delivers Exceptional Solutions
+          How Our ASHBUCK TECHNOLOGIES Delivers Exceptional Solutions
         </h2>
         <div
           data-aos="fade-up"
