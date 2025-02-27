@@ -1,7 +1,15 @@
 import React, { lazy } from "react";
 import bannerImg from "../assets/images/aboutus-banner.webp";
 import ourValuesBg from "../assets/images/our-values-bg.jpeg";
-import { ArrowRight, Gem, MessagesSquare, PersonStanding } from "lucide-react";
+import {
+  ArrowRight,
+  Gem,
+  MessagesSquare,
+  PersonStanding,
+  ShieldCheck,
+  Sparkles,
+  Users,
+} from "lucide-react";
 import img1 from "../assets/images/aboutus-1.png";
 import img2 from "../assets/images/aboutus-2.png";
 import { Link } from "react-router-dom";
@@ -28,22 +36,20 @@ const AboutUs = () => {
             className="pt-[10rem] pb-[3rem] h-full wrapper text-white z-10 flex flex-col gap-3 justify-center items-center"
           >
             <h1 className="heading-2 max-w-5xl text-center">
-              We are expert professionals. We can turn your business idea into a
-              real software solution.
+              Driving Innovation with AI-Powered Digital Solutions
             </h1>
             <p className="max-w-5xl text-center text-[1.1rem]">
-              We are a team of dedicated professionals passionate about
-              transforming business ideas into cutting-edge software solutions.
-              With decades of combined experience, we specialize in custom web
-              and app development, UI/UX design, blockchain technology, and game
-              development. Our approach is rooted in understanding the unique
-              needs of our clients, offering tailored solutions that drive
-              growth and innovation.
+              We are a team of AI-driven innovators, engineers, and strategists
+              dedicated to transforming ideas into reality. Specializing in AI,
+              blockchain, custom software, and intelligent automation, we craft
+              scalable and cutting-edge digital solutions that empower
+              businesses to excel in an evolving technological landscape.
             </p>
             <ArrowLinkButton to="/contact">Contact Us</ArrowLinkButton>
           </div>
         </div>
       </section>
+
       <ServicesWeProvide />
       <section className="bg-[#F7F7F9]">
         <Testimonials />
@@ -55,6 +61,7 @@ const AboutUs = () => {
         <div className="wrapper">
           <h2
             data-aos="fade-up"
+            data-aos-offset="-900"
             className="section-heading text-center text-white"
           >
             Our Values
@@ -62,24 +69,25 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-3 gap-7 mt-7">
             {[
               {
-                title: "Integrity and Transparency",
-                desc: "We prioritize honesty and accountability in everything we do, ensuring open communication and trust with our clients and partners.",
-                Icon: MessagesSquare,
+                title: "Innovation & Cutting-Edge Solutions",
+                desc: "We push the boundaries of technology, leveraging AI, blockchain, and automation to create forward-thinking digital solutions.",
+                Icon: Sparkles,
               },
               {
-                title: "Innovation and Excellence",
-                desc: "By embracing creativity and staying ahead of technology trends, we deliver cutting-edge solutions that consistently exceed expectations.",
-                Icon: PersonStanding,
+                title: "Integrity & Trust",
+                desc: "Honesty, transparency, and accountability are the foundation of our work. We build lasting relationships based on trust and reliability.",
+                Icon: ShieldCheck,
               },
               {
-                title: "Customer-Centric Focus",
-                desc: "Your success is our mission. We understand your unique needs and provide tailored solutions that drive meaningful business growth.",
-                Icon: Gem,
+                title: "Client-Centric Approach",
+                desc: "Your success is our priority. We tailor every solution to align with your goals, ensuring measurable impact and business growth.",
+                Icon: Users,
               },
             ].map(({ title, desc, Icon }) => {
               return (
                 <div
                   data-aos="fade-up"
+                  data-aos-offset="-900"
                   key={title}
                   className="p-5 bg-white/5 backdrop-blur-sm text-white space-y-3 rounded-xl"
                 >
@@ -94,20 +102,22 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
       <section className="pt-[4rem] wrapper">
         <div
           data-aos="fade-up"
+          data-aos-offset="-900"
           className="max-w-5xl mx-auto rounded-2xl overflow-hidden grid md:grid-cols-2"
         >
           <div className="overflow-hidden relative">
             <img
               src={img1}
               className="h-full w-full object-cover"
-              alt="About Us"
+              alt="AI Solutions"
             />
             <div className="aspect-square w-[14rem] sm:w-[16rem] flex flex-col justify-between bg-gradient-to-tr p-7 from-[#CD21E9] via-[#E03D3D] to-[#FFBD12] absolute right-0 bottom-0">
               <h4 className="text-xl font-semibold text-white">
-                Hire Developers for Your Next Project
+                Build Future-Ready AI Solutions
               </h4>
               <Link
                 to="/contact"
@@ -117,17 +127,16 @@ const AboutUs = () => {
               </Link>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="grid sm:grid-cols-2 h-fit relative">
               <img
                 src={img2}
                 className="hidden sm:block h-full w-full object-cover"
-                alt="About Us"
+                alt="AI Innovations"
               />
               <div className="py-[3rem] px-7 sm:aspect-square flex flex-col justify-between bg-gradient-to-tr sm:p-7 from-[#992FED] to-[#2F80ED]">
                 <h4 className="text-xl font-semibold text-white">
-                  AI Company Partners with Optimizely for Enhanced Digital
-                  Experiences
+                  Transforming Businesses with AI-Driven Digital Strategies
                 </h4>
                 <Link
                   to="/contact"
@@ -139,13 +148,13 @@ const AboutUs = () => {
             </div>
             <div className="p-7 h-full text-white bg-[#131426] flex flex-col gap-3">
               <p className="border-b border-dotted border-white/20 pb-3">
-                The Importance of a Strong Digital Presence in 2024
+                How AI is Revolutionizing Digital Transformation in 2024
               </p>
               <p className="border-b border-dotted border-white/20 pb-3">
-                Web Development Trends to Watch This Year
+                Top AI & Automation Trends for Businesses This Year
               </p>
               <p className="border-b border-dotted border-white/20 pb-3">
-                The Role of UX-UI Design in Business Success
+                The Future of UI/UX: AI-Driven User Experiences
               </p>
               <div className="mt-7 self-end">
                 <Link
@@ -159,6 +168,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
       <section className="pt-[4rem]">
         <WorkProcess />
       </section>

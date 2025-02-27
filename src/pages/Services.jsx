@@ -3,7 +3,9 @@ import bannerImg from "../assets/images/services-banner.webp";
 import { ArrowLinkButton } from "../components/ArrowButtons";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
-const ServicesWeProvide = lazy(() => import("../components/website/ServicesWeProvide"));
+const ServicesWeProvide = lazy(() =>
+  import("../components/website/ServicesWeProvide")
+);
 
 const Services = () => {
   return (
@@ -19,24 +21,21 @@ const Services = () => {
             className="pt-[10rem] pb-[3rem] h-full wrapper text-white z-10 flex flex-col gap-3 justify-center items-center"
           >
             <h1 className="heading-2 max-w-5xl text-center">
-              Transforming Your Vision into Cutting-Edge Software Solutions with
-              Expertise and Innovation
+              Empowering Businesses with AI-Driven Digital Transformation
             </h1>
             <p className="max-w-5xl text-center text-[1.1rem]">
-              We specialize in delivering innovative software solutions that
-              empower businesses to succeed in the digital age. Our team
-              combines years of industry experience, a deep understanding of
-              market trends, and unmatched technical proficiency to develop
-              cutting-edge web platforms, mobile applications, UI/UX designs,
-              blockchain solutions, and immersive games. Whether you're looking
-              to build scalable web services, launch a mobile app, or explore
-              emerging technologies, we have the expertise to bring your vision
-              to life.
+              We harness the power of AI, blockchain, and cutting-edge software
+              development to build scalable, intelligent solutions for the
+              modern digital landscape. Our expertise spans AI automation, web
+              and mobile applications, UI/UX design, and next-generation
+              technologies, ensuring your business stays ahead in a rapidly
+              evolving world.
             </p>
             <ArrowLinkButton to="/contact">Contact Us</ArrowLinkButton>
           </div>
         </div>
       </section>
+
       <ServicesWeProvide />
       <ContactForm />
     </>
