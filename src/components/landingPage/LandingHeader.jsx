@@ -34,7 +34,7 @@ const LandingHeader = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-white">
+    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-black">
       <div className="flex wrapper items-center gap-8 justify-between">
         <Scroll
           to="banner"
@@ -49,7 +49,7 @@ const LandingHeader = () => {
             alt="logo"
             width="75"
             height="75"
-            className="h-[3.5rem] lg:h-[5rem] object-contain"
+            className="w-[8.5rem] lg:w-[12rem] object-contain"
           />
         </Scroll>
         <div className="hidden lg:flex items-center gap-10">
@@ -58,12 +58,12 @@ const LandingHeader = () => {
               <Scroll
                 key={link.name}
                 to={link.path}
-                className="link"
+                className="link text-white"
                 spy={true}
                 smooth={true}
                 offset={-90}
                 duration={1000}
-                activeClass="font-semibold text-purpleColor"
+                activeClass="font-semibold !text-white"
               >
                 {link.name}
               </Scroll>
@@ -71,8 +71,8 @@ const LandingHeader = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`link ${
-                  pathname === link.path && "font-semibold text-purpleColor"
+                className={`link text-white ${
+                  pathname === link.path && "font-semibold !text-primary"
                 }`}
               >
                 {link.name}
@@ -91,7 +91,7 @@ const LandingHeader = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#ffffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -104,6 +104,7 @@ const LandingHeader = () => {
         onClose={() => setIsOpen(false)}
         direction="right"
         className="z-10 p-2"
+        style={{ background: "black" }}
       >
         <div className="mb-6 flex items-center justify-between px-[.7rem] py-[.4rem]">
           <img
@@ -124,7 +125,7 @@ const LandingHeader = () => {
                 onClick={() => setIsOpen(false)}
                 key={link.name}
                 to={link.path}
-                className="text-2xl font-medium"
+                className="text-2xl font-medium text-white"
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -137,7 +138,7 @@ const LandingHeader = () => {
                 onClick={() => setIsOpen(false)}
                 key={link.name}
                 to={link.path}
-                className="text-2xl font-medium"
+                className="text-2xl font-medium text-white"
               >
                 {link.name}
               </Link>

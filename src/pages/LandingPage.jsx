@@ -72,27 +72,23 @@ const LandingPage = ({ page }) => {
               className="flex items-center text-start self-start text-white px-3 py-2 rounded-full border border-white"
             >
               <CodeXml className="inline mr-2" />
-              <span>{isWeb ? "Web Development" : "App Development"}</span>
+              <span>
+                {isWeb
+                  ? "AI-Powered Web Solutions"
+                  : "AI-Driven App Development"}
+              </span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
-              Empowering Your Business with Seamless
+              Transforming Businesses with{" "}
               <span className="gradient-text">
-                {" "}
-                {isWeb ? "Web Solutions" : "App Solutions"}
+                {isWeb ? "Intelligent Web Solutions" : "Smart App Innovations"}
               </span>
               <br />
             </h1>
             <p data-aos="fade-up" className="text-white text-lg">
               {isWeb
-                ? `We design and develop user-centric websites that streamline your
-              business processes, boost engagement, and deliver seamless
-              experiences across devices. Our solutions are tailored to meet
-              your unique needs and drive measurable results.
-              `
-                : `Our expert team creates innovative, user-friendly mobile
-            applications that bring your ideas to life. Whether it’s Android,
-            iOS, or cross-platform development, we ensure your app stands out in
-            the competitive digital landscape.`}
+                ? `We develop cutting-edge, AI-enhanced websites that optimize user engagement, automate workflows, and drive business growth. Our intelligent web solutions are designed to be scalable, secure, and future-ready.`
+                : `Our expert team builds AI-powered mobile applications that enhance user experiences, streamline operations, and bring next-gen innovations to your fingertips. Whether it’s Android, iOS, or cross-platform, we deliver high-performance solutions.`}
             </p>
           </div>
         </div>
