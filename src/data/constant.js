@@ -1,0 +1,300 @@
+import { CodeXml, NotebookPen, Rocket, ShieldCheck } from "lucide-react";
+import logo from "../assets/logo/logo.png";
+
+export { logo };
+
+// company
+export const companyDetails = {
+  name: "AI Company",
+  address:
+    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
+  phone: "+0000000000",
+  email: "abc@example.com",
+};
+
+// working process
+export const workingProcess = [
+  {
+    step: 1,
+    title: "Discovery & Consultation",
+    description:
+      "We begin by understanding your business, your challenges, and your goals. This helps us craft a tailored strategy that aligns with your objectives and sets the foundation for success.",
+    icon: NotebookPen,
+  },
+  {
+    step: 2,
+    title: "Design & Development",
+    description:
+      "With a clear strategy in place, we move on to the design and development phase. Whether it’s building a custom app, creating a website, or implementing AI, we ensure every solution is intuitive, scalable, and designed with the user experience in mind.",
+    icon: CodeXml,
+  },
+  {
+    step: 3,
+    title: "Quality Assurance & Testing",
+    description:
+      "We believe in delivering nothing short of excellence. Our team conducts thorough testing to ensure that our solutions are reliable, secure, and perform as expected.",
+    icon: ShieldCheck,
+  },
+  {
+    step: 4,
+    title: "Launch & Ongoing Optimization",
+    description:
+      "Once the solution is live, we continue to optimize and refine, providing continuous support to ensure your solution evolves with your business and remains at peak performance.",
+    icon: Rocket,
+  },
+];
+
+// web development services
+export const webDevelopmentServices = [
+  {
+    id: 1,
+    title: "E-commerce Websites",
+    image: require("../assets/images/landingpage/ecommerce.webp"),
+    description:
+      "Empowering your online business with tailored ecommerce solutions. Our platforms boost customer engagement, streamline operations, and drive revenue growth. ",
+  },
+  {
+    id: 2,
+    title: "Social Media Websites",
+    image: require("../assets/images/landingpage/socialmedia.webp"),
+    description:
+      "Get custom social media websites that captivate and engage your audience, driving growth and brand loyalty effortlessly",
+  },
+  {
+    id: 3,
+    title: "Landing Websites",
+    image: require("../assets/images/landingpage/landing.webp"),
+    description:
+      " Creating high-converting landing pages that capture attention and drive action. Tailored designs that showcase your brand’s message and maximize conversions.",
+  },
+  {
+    id: 4,
+    title: "Custom Websites",
+    image: require("../assets/images/landingpage/customweb.webp"),
+    description:
+      "Delivering tailor-made websites designed to meet your unique business needs. Our solutions blend creativity and functionality for an exceptional online experience.",
+  },
+];
+
+// app development services
+export const appDevelopmentServices = [
+  {
+    id: 1,
+    title: "iOS App Development",
+    image: require("../assets/images/landingpage/ios.webp"),
+    description:
+      "Our skilled developers work with both Swift and Objective-C to build robust and efficient apps. We optimize your app for performance, speed, and responsiveness.",
+  },
+  {
+    id: 2,
+    title: "Android App Development",
+    image: require("../assets/images/landingpage/android.webp"),
+    description:
+      "We design and develop tailor-made Android apps that align with your vision and business goals.Proficient in both Java and Kotlin, we build robust and efficient apps.",
+  },
+  {
+    id: 3,
+    title: "Flutter App Development",
+    image: require("../assets/images/landingpage/flutter.webp"),
+    description:
+      "Flutter allows you to build apps for both iOS and Android using a single codebase. While Flutter's default web app architecture presents challenges, we can overcome them with smart strategies. ",
+  },
+  {
+    id: 4,
+    title: "Hybrid App Development",
+    image: require("../assets/images/landingpage/hybrid.webp"),
+    description:
+      "We build feature-rich hybrid apps tailored to your business needs. We create mobile-friendly apps that work seamlessly across iOS and Android devices.",
+  },
+];
+
+// testimonials
+export const testimonials = [
+  {
+    name: "Sarah K.",
+    position: "Chief Technology Officer, Innovate Tech Solutions",
+    desc: `We partnered with [Company Name] to implement blockchain technology for our business,
+and the experience has been transformative. They helped us create a secure, scalable system
+that is now the backbone of our operations. The team’s deep understanding of blockchain
+technology made the process smooth, and we’ve already seen significant improvements in
+efficiency and transparency.`,
+    // img: require("../assets/images/testimonials/1.jpg"),
+  },
+  {
+    name: "David L.",
+    position: "Founder, FunPlay Games",
+    desc: `[Company Name] turned our game concept into a reality. They not only helped us with
+game development but also provided insightful suggestions that improved gameplay and user
+engagement. Their team delivered the project on time and exceeded our expectations. We’ve
+received positive feedback from players, and the game is performing well in the app stores.`,
+    // img: require("../assets/images/testimonials/2.jpg"),
+  },
+  {
+    name: "Emma W.",
+    position: "CEO, GreenLeaf Enterprises",
+    desc: `Creating a custom app for our business was a challenge, but the team at [Company Name]
+made it an enjoyable experience. They listened to our needs and delivered a mobile app that’s
+intuitive, feature-rich, and well-received by our customers. From design to development, they
+provided excellent support and guidance throughout the process.`,
+    // img: require("../assets/images/testimonials/3.jpg"),
+  },
+  {
+    name: "Mark T.",
+    position: "Operations Manager, GlobalCorp",
+    desc: `Adopting RPA with [Company Name] has streamlined many of our routine processes,
+saving us time and resources. Their team took the time to understand our unique requirements
+and designed bots that fit seamlessly into our operations. The results have been impressive —
+we’ve reduced human error and increased overall efficiency.`,
+    // img: require("../assets/images/testimonials/4.jpg"),
+  },
+  {
+    name: "Jasmine D.",
+    position: "Customer Support Head, BrightWave Tech",
+    desc: `Integrating AI into our customer service operations has made a huge difference, and
+[Company Name] was instrumental in making it happen. Their expertise in AI development
+helped us create a personalized experience for our customers, and we’ve seen higher
+engagement and satisfaction since the implementation. The team was responsive and highly
+skilled throughout the process.`,
+    // img: require("../assets/images/testimonials/5.jpg"),
+  },
+  {
+    name: "Chris H.",
+    position: "Data Analyst, NextGen Enterprises",
+    desc: `Working with [Company Name] was a pivotal moment for our company. They helped us
+harness the power of machine learning to better understand our data and make more informed
+decisions. Their solutions enabled us to predict trends and optimize our operations, leading to
+a measurable increase in productivity and profitability.`,
+    // img: require("../assets/images/testimonials/6.jpg"),
+  },
+  {
+    name: "Rebecca M.",
+    position: "IT Manager, BrightTech Industries",
+    desc: `Before migrating to the cloud, our infrastructure was holding us back. [Company Name]
+facilitated a smooth transition, providing expert guidance on cloud solutions and ensuring
+that everything was integrated seamlessly. Our new cloud-based systems are more scalable
+and cost-effective, allowing us to focus on growth without worrying about IT infrastructure.`,
+    // img: require("../assets/images/testimonials/7.jpg"),
+  },
+  {
+    name: "Michael S.",
+    position: "Marketing Director, EcoGreen Solutions",
+    desc: `We needed a modern, responsive website to represent our brand, and [Company Name]
+delivered exactly what we envisioned. Their team crafted an aesthetically pleasing and user-
+friendly site that has increased our online presence. We’re already seeing more website traffic
+and conversions, and we couldn’t be happier with the final result.`,
+    // img: require("../assets/images/testimonials/8.jpg"),
+  },
+  {
+    name: "Lily P.",
+    position: "Chief Marketing Officer, LuxeGoods Retail",
+    desc: `Our company had a large amount of unstructured data, and we needed a way to extract
+valuable insights. [Company Name] provided us with comprehensive data science solutions
+that enabled us to make smarter, data-driven decisions. Their team’s expertise in predictive
+analytics has helped us optimize our operations and improve overall business performance.`,
+    // img: require("../assets/images/testimonials/9.jpg"),
+  },
+  {
+    name: "Daniel R.",
+    position: "Head of Technology, VoiceTech Solutions",
+    desc: `We were looking for a solution to automate our customer interactions, and [Company
+Name] provided the perfect NLP-powered solution. Their technology enabled us to deploy a
+highly efficient virtual assistant, which has improved customer engagement and streamlined
+our support process. We’ve already seen a marked reduction in response times.`,
+    // img: require("../assets/images/testimonials/10.jpg"),
+  },
+  {
+    name: "Nina F.",
+    position: "Chief Technology Officer, WebFlow Enterprises",
+    desc: `Moving our data and applications to the cloud was a huge undertaking, but [Company
+Name] made the entire process seamless. From the initial assessment to post-migration
+support, they handled every detail and ensured everything was up and running without
+disruption. Our systems are now more flexible and efficient, and we have full confidence in
+our new cloud infrastructure.`,
+    // img: require("../assets/images/testimonials/11.jpg"),
+  },
+  {
+    name: "Joshua E.",
+    position: "CEO, Urban Style Apparel",
+    desc: `The UI/UX redesign of our website and mobile app was a success, thanks to [Company
+Name]. They worked closely with us to understand our audience and objectives, and the
+results speak for themselves. Our users now have a smoother, more intuitive experience, and
+we’ve seen a noticeable improvement in user engagement.`,
+    // img: require("../assets/images/testimonials/12.jpg"),
+  },
+  {
+    name: "Olivia G.",
+    position: "Customer Service Manager, ComTech Solutions",
+    desc: `Integrating AI into our customer support calls has been a major win for our team. The AI-
+powered system built by [Company Name] not only handles customer inquiries but also
+provides accurate responses in real-time. This has freed up our support agents to handle more
+complex cases, while improving our customer satisfaction ratings.`,
+    // img: require("../assets/images/testimonials/13.jpg"),
+  },
+  {
+    name: "Jack L.",
+    position: "Digital Marketing Director, FutureTrend Media",
+    desc: `[Company Name] revamped our digital marketing strategy, and the results have been
+outstanding. Their expertise in SEO, social media, and paid advertising has significantly
+boosted our online presence and brought in more qualified leads. They’re a trusted partner,
+and we continue to see positive results month after month.`,
+    // img: require("../assets/images/testimonials/14.jpg"),
+  },
+];
+
+// portfolio images (web development)
+export const webPortfolio = [
+  {
+    id: 1,
+    img: require("../assets/images/web_projects/1.webp"),
+    title: "FE-Finance",
+  },
+  {
+    id: 2,
+    img: require("../assets/images/web_projects/2.webp"),
+    title: "Ocxee",
+  },
+  {
+    id: 3,
+    img: require("../assets/images/web_projects/3.webp"),
+    title: "Leaderbridge",
+  },
+  {
+    id: 4,
+    img: require("../assets/images/web_projects/4.webp"),
+    title: "Gigzio",
+  },
+  {
+    id: 5,
+    img: require("../assets/images/web_projects/5.webp"),
+    title: "FE Group",
+  },
+  {
+    id: 6,
+    img: require("../assets/images/web_projects/6.webp"),
+    title: "V Talkz",
+  },
+];
+
+// portfolio images (app development)
+export const appPortfolio = [
+  {
+    id: 1,
+    img: require("../assets/images/app_projects/1.webp"),
+    title: "PartEx",
+  },
+  {
+    id: 2,
+    img: require("../assets/images/app_projects/2.webp"),
+    title: "Find A Driver",
+  },
+  {
+    id: 3,
+    img: require("../assets/images/app_projects/3.webp"),
+    title: "Artisan Express",
+  },
+  {
+    id: 4,
+    img: require("../assets/images/app_projects/4.webp"),
+    title: "House of Deliverance",
+  },
+];
