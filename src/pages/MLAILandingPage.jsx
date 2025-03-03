@@ -74,23 +74,21 @@ const MLAILandingPage = ({ page }) => {
               <CodeXml className="inline mr-2" />
               <span>
                 {isAi
-                  ? "AI & ML-Powered Web Solutions"
-                  : "AI & ML-Driven App Development"}
+                  ? "AI & ML-Powered Innovations"
+                  : "Data-Driven Digital Marketing"}
               </span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
               Transforming Businesses with{" "}
               <span className="gradient-text">
-                {isAi
-                  ? "Advanced AI & ML Solutions"
-                  : "Smart AI & ML Innovations"}
+                {isAi ? "AI & ML Solutions" : "Strategic Digital Marketing"}
               </span>
               <br />
             </h1>
             <p data-aos="fade-up" className="text-white text-lg">
               {isAi
-                ? `We develop cutting-edge AI and ML-enhanced websites that optimize user engagement, automate complex workflows, and drive data-driven decision-making. Our intelligent web solutions are designed to be scalable, secure, and future-ready.`
-                : `Our expert team builds AI and ML-powered mobile applications that enhance user experiences, enable predictive analytics, and bring next-gen automation to your fingertips. Whether it’s Android, iOS, or cross-platform, we deliver high-performance solutions.`}
+                ? `We craft intelligent AI & ML-driven solutions that optimize efficiency, automate processes, and leverage data-driven insights to fuel business growth. Our advanced technologies empower enterprises with predictive analytics, automation, and machine learning capabilities.`
+                : `Our digital marketing strategies boost online visibility, engage target audiences, and drive measurable results. From SEO and content marketing to social media and PPC, we leverage data-driven approaches to enhance brand presence and maximize conversions.`}
             </p>
           </div>
         </div>

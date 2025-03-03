@@ -141,7 +141,7 @@ function App() {
               }
             />
             <Route
-              path="/ai-development"
+              path="/ai-ml-development"
               element={
                 <>
                   <LandingHeader />
@@ -151,11 +151,11 @@ function App() {
               }
             />
             <Route
-              path="/ml-development"
+              path="/digital-marketing"
               element={
                 <>
                   <LandingHeader />
-                  <MLAILandingPage page="ml" />
+                  <MLAILandingPage page="digital" />
                   <LandingFooter />
                 </>
               }

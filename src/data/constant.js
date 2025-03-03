@@ -129,68 +129,67 @@ export const appDevelopmentServices = [
 ];
 
 // AI Development Services
-export const aiDevelopmentServices = [
+export const aiMlDevelopmentServices = [
   {
     id: 1,
-    title: "Custom AI Solutions",
+    title: "Custom AI & ML Solutions",
     image: require("../assets/images/landingpage/ai_custom.jpg"),
     description:
-      "Tailored AI models that address your unique business challenges, ensuring efficiency, accuracy, and optimized performance across various domains.",
+      "Develop tailored AI and ML models to address unique business challenges, ensuring efficiency, accuracy, and optimized performance across various domains.",
   },
   {
     id: 2,
-    title: "Intelligent Automation",
+    title: "Intelligent Automation & Deployment",
     image: require("../assets/images/landingpage/ai_automation.jpg"),
     description:
-      "Streamline business operations with AI-powered automation tools that minimize manual effort, enhance productivity, and reduce operational costs.",
+      "Streamline business operations with AI-powered automation and seamlessly integrate machine learning models into workflows with continuous monitoring.",
   },
   {
     id: 3,
-    title: "Data-Driven Insights",
+    title: "Data-Driven Insights & Preprocessing",
     image: require("../assets/images/landingpage/ai_insights.jpg"),
     description:
-      "Leverage AI to extract valuable, actionable intelligence from complex datasets, empowering data-driven decision-making and strategic growth.",
+      "Leverage AI and ML to extract actionable intelligence from complex datasets while ensuring high-quality data preprocessing for accurate model training.",
   },
   {
     id: 4,
     title: "AI-Powered Predictive Analytics",
     image: require("../assets/images/landingpage/ai_analytics.jpg"),
     description:
-      "Enhance business forecasting and decision-making with AI-driven predictive analytics, utilizing historical data to anticipate future trends and opportunities.",
+      "Enhance business forecasting with AI-driven predictive analytics, utilizing historical data to anticipate future trends and growth opportunities.",
   },
 ];
-
-// Machine Learning Development Services
-export const mlDevelopmentServices = [
+export const digitalMarketingServices = [
   {
     id: 1,
-    title: "Data Preprocessing",
-    image: require("../assets/images/landingpage/ml_preprocessing.jpg"),
+    title: "Search Engine Optimization (SEO)",
+    image: require("../assets/images/landingpage/dmseo.jpg"),
     description:
-      "Ensure high-quality data for model training by cleaning, transforming, and structuring datasets for accurate and efficient machine learning outcomes.",
+      "Boost your online presence with data-driven SEO strategies, improving search rankings, organic traffic, and visibility across search engines.",
   },
   {
     id: 2,
-    title: "Model Development",
-    image: require("../assets/images/landingpage/ml_model.jpg"),
+    title: "Content Marketing",
+    image: require("../assets/images/landingpage/dmcontent.jpg"),
     description:
-      "Build and train custom machine learning models tailored to your business needs, optimizing performance and accuracy across various applications.",
+      "Engage and educate your audience with high-quality, value-driven content, enhancing brand authority and driving customer interactions.",
   },
   {
     id: 3,
-    title: "Deployment & Monitoring",
-    image: require("../assets/images/landingpage/ml_deployment.jpg"),
+    title: "Social Media Marketing",
+    image: require("../assets/images/landingpage/dmsocial.jpg"),
     description:
-      "Integrate machine learning models seamlessly into your workflow while continuously monitoring their performance for optimal results and improvements.",
+      "Grow your brand’s presence across multiple social media platforms with targeted campaigns that increase engagement and conversions.",
   },
   {
     id: 4,
-    title: "Automated Machine Learning (AutoML)",
-    image: require("../assets/images/landingpage/ml_automl.jpg"),
+    title: "Pay-Per-Click (PPC) Advertising",
+    image: require("../assets/images/landingpage/dmppc.jpg"),
     description:
-      "Accelerate machine learning model development with AutoML solutions that enable rapid deployment without requiring deep technical expertise.",
+      "Maximize ROI with high-performing PPC campaigns, leveraging paid ads to drive traffic, leads, and sales efficiently.",
   },
 ];
+
 // testimonials
 export const testimonials = [
   {

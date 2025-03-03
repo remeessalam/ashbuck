@@ -15,7 +15,7 @@ import {
   Tv,
 } from "lucide-react";
 import { ReactComponent as icon1 } from "../assets/svg/services/ai.svg";
-import { ReactComponent as icon2 } from "../assets/svg/services/ml.svg";
+import { ReactComponent as icon2 } from "../assets/svg/services/digital.svg";
 import { Link } from "react-router-dom";
 import howWeBuildCover from "../assets/images/how-we-build.jpeg";
 import whyWorkWithUs1 from "../assets/images/whyworkwithus1.png";
@@ -34,17 +34,17 @@ const ServicesWeProvide = lazy(() =>
 const bannerServices = [
   {
     id: 1,
-    title: "AI Development",
+    title: "AI/ML Development",
     icon: icon1,
-    desc: "AI development focuses on creating intelligent systems that automate tasks, enhance decision-making, and drive innovation across industries.",
-    landingPageLink: "/ai-development",
+    desc: "AI and Machine Learning development focuses on building intelligent systems that automate tasks, analyze data, recognize patterns, and enhance decision-making to drive business innovation.",
+    landingPageLink: "/ai-ml-development",
   },
   {
-    id: 2,
-    title: "ML Development",
+    id: 3,
+    title: "Digital Marketing",
     icon: icon2,
-    desc: "Machine Learning development involves building self-learning algorithms that analyze data, recognize patterns, and improve business processes.",
-    landingPageLink: "/ml-development",
+    desc: "Digital marketing leverages SEO, content marketing, social media, and paid advertising to boost brand visibility, engage audiences, and drive business growth.",
+    landingPageLink: "/digital-marketing",
   },
 ];
 

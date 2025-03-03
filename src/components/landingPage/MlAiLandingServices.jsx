@@ -1,12 +1,12 @@
 import React from "react";
 import {
-  aiDevelopmentServices,
-  mlDevelopmentServices,
+  aiMlDevelopmentServices,
+  digitalMarketingServices,
 } from "../../data/constant";
 import { ArrowScrollButton } from "../ArrowButtons";
 
 const MlAiLandingServices = ({ isAi }) => {
-  const services = isAi ? aiDevelopmentServices : mlDevelopmentServices;
+  const services = isAi ? aiMlDevelopmentServices : digitalMarketingServices;
   return (
     <div id="services" className="py-[4rem] wrapper">
       <h2
@@ -14,7 +14,9 @@ const MlAiLandingServices = ({ isAi }) => {
         data-aos-offset="-900"
         className="section-heading text-center"
       >
-        {isAi ? "Our Web Development Services" : "Our App Development Services"}
+        {isAi
+          ? "Our AI & ML Development Services"
+          : "Our Digital Marketing Services"}
       </h2>
       <div
         data-aos="fade-up"
@@ -28,12 +30,12 @@ const MlAiLandingServices = ({ isAi }) => {
               i === 2 ? "order-3" : ""
             }`}
           >
-            <div className="text-white overflow-hidden ">
+            <div className="text-white overflow-hidden">
               <div className="absolute h-full w-full inset-0 z-0 backdrop-blur-sm bg-black/50"></div>
               <img
                 src={item.image}
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
-                alt=""
+                alt={item.title}
               />
               <div className="relative z-10 grid sm:grid-cols-[60%_auto] h-full items-center gap-4">
                 <div className="h-full flex flex-col gap-3 justify-between">
@@ -57,7 +59,7 @@ const MlAiLandingServices = ({ isAi }) => {
           </div>
         ))}
       </div>
-      <ArrowScrollButton to="contact">Request a quote</ArrowScrollButton>
+      <ArrowScrollButton to="contact">Request a Quote</ArrowScrollButton>
     </div>
   );
 };
