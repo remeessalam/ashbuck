@@ -128,6 +128,69 @@ export const appDevelopmentServices = [
   },
 ];
 
+// AI Development Services
+export const aiDevelopmentServices = [
+  {
+    id: 1,
+    title: "Custom AI Solutions",
+    image: require("../assets/images/landingpage/ai_custom.jpg"),
+    description:
+      "Tailored AI models that address your unique business challenges, ensuring efficiency, accuracy, and optimized performance across various domains.",
+  },
+  {
+    id: 2,
+    title: "Intelligent Automation",
+    image: require("../assets/images/landingpage/ai_automation.jpg"),
+    description:
+      "Streamline business operations with AI-powered automation tools that minimize manual effort, enhance productivity, and reduce operational costs.",
+  },
+  {
+    id: 3,
+    title: "Data-Driven Insights",
+    image: require("../assets/images/landingpage/ai_insights.jpg"),
+    description:
+      "Leverage AI to extract valuable, actionable intelligence from complex datasets, empowering data-driven decision-making and strategic growth.",
+  },
+  {
+    id: 4,
+    title: "AI-Powered Predictive Analytics",
+    image: require("../assets/images/landingpage/ai_analytics.jpg"),
+    description:
+      "Enhance business forecasting and decision-making with AI-driven predictive analytics, utilizing historical data to anticipate future trends and opportunities.",
+  },
+];
+
+// Machine Learning Development Services
+export const mlDevelopmentServices = [
+  {
+    id: 1,
+    title: "Data Preprocessing",
+    image: require("../assets/images/landingpage/ml_preprocessing.jpg"),
+    description:
+      "Ensure high-quality data for model training by cleaning, transforming, and structuring datasets for accurate and efficient machine learning outcomes.",
+  },
+  {
+    id: 2,
+    title: "Model Development",
+    image: require("../assets/images/landingpage/ml_model.jpg"),
+    description:
+      "Build and train custom machine learning models tailored to your business needs, optimizing performance and accuracy across various applications.",
+  },
+  {
+    id: 3,
+    title: "Deployment & Monitoring",
+    image: require("../assets/images/landingpage/ml_deployment.jpg"),
+    description:
+      "Integrate machine learning models seamlessly into your workflow while continuously monitoring their performance for optimal results and improvements.",
+  },
+  {
+    id: 4,
+    title: "Automated Machine Learning (AutoML)",
+    image: require("../assets/images/landingpage/ml_automl.jpg"),
+    description:
+      "Accelerate machine learning model development with AutoML solutions that enable rapid deployment without requiring deep technical expertise.",
+  },
+];
 // testimonials
 export const testimonials = [
   {

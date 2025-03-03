@@ -14,8 +14,8 @@ import {
   Store,
   Tv,
 } from "lucide-react";
-import { ReactComponent as icon1 } from "../assets/svg/services/Web Development.svg";
-import { ReactComponent as icon2 } from "../assets/svg/services/App Development.svg";
+import { ReactComponent as icon1 } from "../assets/svg/services/ai.svg";
+import { ReactComponent as icon2 } from "../assets/svg/services/ml.svg";
 import { Link } from "react-router-dom";
 import howWeBuildCover from "../assets/images/how-we-build.jpeg";
 import whyWorkWithUs1 from "../assets/images/whyworkwithus1.png";
@@ -34,24 +34,18 @@ const ServicesWeProvide = lazy(() =>
 const bannerServices = [
   {
     id: 1,
-    title: "Web Development",
+    title: "AI Development",
     icon: icon1,
-    desc: "Web development is the process of building, designing, and maintaining dynamic, user-friendly websites and web applications.",
-    landingPageLink: "/web-development",
+    desc: "AI development focuses on creating intelligent systems that automate tasks, enhance decision-making, and drive innovation across industries.",
+    landingPageLink: "/ai-development",
   },
   {
     id: 2,
-    title: "App Development",
+    title: "ML Development",
     icon: icon2,
-    desc: "Mobile app development involves creating innovative, user-friendly apps for smartphones and tablets across various platforms.",
-    landingPageLink: "/app-development",
+    desc: "Machine Learning development involves building self-learning algorithms that analyze data, recognize patterns, and improve business processes.",
+    landingPageLink: "/ml-development",
   },
-  // {
-  //   id: 3,
-  //   title: "Blockchain",
-  //   icon: icon3,
-  //   desc: "Blockchain development focuses on building secure, decentralized applications and systems using blockchain technology for transparency and efficiency.",
-  // },
 ];
 
 const industries = [

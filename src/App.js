@@ -16,6 +16,7 @@ import Footer from "./components/website/Footer";
 import LandingHeader from "./components/landingPage/LandingHeader";
 import LandingFooter from "./components/landingPage/LandingFooter";
 import { Toaster } from "react-hot-toast";
+import MLAILandingPage from "./pages/MLAILandingPage";
 
 // Lazy loading components
 const Home = lazy(() => import("./pages/Home"));
@@ -135,6 +136,26 @@ function App() {
                 <>
                   <LandingHeader />
                   <LandingPage page="app" />
+                  <LandingFooter />
+                </>
+              }
+            />
+            <Route
+              path="/ai-development"
+              element={
+                <>
+                  <LandingHeader />
+                  <MLAILandingPage page="ai" />
+                  <LandingFooter />
+                </>
+              }
+            />
+            <Route
+              path="/ml-development"
+              element={
+                <>
+                  <LandingHeader />
+                  <MLAILandingPage page="ml" />
                   <LandingFooter />
                 </>
               }
