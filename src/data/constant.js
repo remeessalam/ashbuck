@@ -162,31 +162,59 @@ export const aiMlDevelopmentServices = [
 export const digitalMarketingServices = [
   {
     id: 1,
-    title: "Search Engine Optimization (SEO)",
-    image: require("../assets/images/landingpage/dmseo.jpg"),
+    title: "Branding",
+    image: require("../assets/images/landingpage/dmbranding.jpg"),
     description:
-      "Boost your online presence with data-driven SEO strategies, improving search rankings, organic traffic, and visibility across search engines.",
+      "Establish a strong brand identity with strategic positioning, compelling visuals, and consistent messaging to stand out in the market.",
   },
   {
     id: 2,
-    title: "Content Marketing",
-    image: require("../assets/images/landingpage/dmcontent.jpg"),
+    title: "Production",
+    image: require("../assets/images/landingpage/dmproduction.jpg"),
     description:
-      "Engage and educate your audience with high-quality, value-driven content, enhancing brand authority and driving customer interactions.",
+      "Create high-quality multimedia content, including videos, photography, and promotional materials, to captivate your audience.",
   },
   {
     id: 3,
-    title: "Social Media Marketing",
-    image: require("../assets/images/landingpage/dmsocial.jpg"),
+    title: "Motion & Graphics",
+    image: require("../assets/images/landingpage/dmmotion.jpg"),
     description:
-      "Grow your brand’s presence across multiple social media platforms with targeted campaigns that increase engagement and conversions.",
+      "Enhance engagement with visually appealing motion graphics and animations that bring your brand story to life.",
   },
   {
     id: 4,
-    title: "Pay-Per-Click (PPC) Advertising",
-    image: require("../assets/images/landingpage/dmppc.jpg"),
+    title: "Influencer Marketing",
+    image: require("../assets/images/landingpage/dminfluencer.jpg"),
     description:
-      "Maximize ROI with high-performing PPC campaigns, leveraging paid ads to drive traffic, leads, and sales efficiently.",
+      "Leverage industry influencers to boost your brand’s reach, credibility, and conversions through authentic collaborations.",
+  },
+  {
+    id: 5,
+    title: "Social Media Marketing",
+    image: require("../assets/images/landingpage/dmsocial.jpg"),
+    description:
+      "Expand your brand’s online presence and engagement through data-driven social media strategies across multiple platforms.",
+  },
+  {
+    id: 6,
+    title: "Email Marketing",
+    image: require("../assets/images/landingpage/dmemail.jpg"),
+    description:
+      "Nurture leads and retain customers with personalized email campaigns that drive conversions and brand loyalty.",
+  },
+  {
+    id: 7,
+    title: "Public Relations",
+    image: require("../assets/images/landingpage/dmpr.jpg"),
+    description:
+      "Build and maintain a positive brand image through strategic PR campaigns, media coverage, and reputation management.",
+  },
+  {
+    id: 8,
+    title: "Bulk WhatsApp Messaging/WhatsApp ChatBot",
+    image: require("../assets/images/landingpage/dmwhatsapp.jpg"),
+    description:
+      "Automate customer interactions and reach your audience instantly with bulk WhatsApp messaging and AI-powered chatbots.",
   },
 ];
 

@@ -43,7 +43,7 @@ const MlAiLandingServices = ({ isAi }) => {
                     <p className="text-xl font-medium">{item.title}</p>
                     <img
                       src={item.image}
-                      className="object-contain block sm:hidden"
+                      className="object-cover block sm:hidden w-full max-h-[20rem]"
                       alt={item.title}
                     />
                     <p>{item.description}</p>
@@ -51,7 +51,7 @@ const MlAiLandingServices = ({ isAi }) => {
                 </div>
                 <img
                   src={item.image}
-                  className="object-cover h-full rounded-xl sm:block hidden"
+                  className="object-cover w-full h-full max-h-[10rem] rounded-xl sm:block hidden"
                   alt={item.title}
                 />
               </div>

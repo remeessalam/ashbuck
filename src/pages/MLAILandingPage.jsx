@@ -58,6 +58,18 @@ const industries = [
     icon: BrainCircuit,
     title: "AI",
   },
+  {
+    icon: BrainCircuit,
+    title: "Fashion",
+  },
+  {
+    icon: BrainCircuit,
+    title: "Restaurants",
+  },
+  {
+    icon: BrainCircuit,
+    title: "Personal Branding",
+  },
 ];
 
 const MLAILandingPage = ({ page }) => {
@@ -146,7 +158,7 @@ const MLAILandingPage = ({ page }) => {
             Using powerful, industry-specific software solutions, our team can
             help you achieve your business goals.
           </p>
-          <div className="pt-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
+          <div className="pt-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3">
             {industries.map((item) => {
               const IconComponent = item.icon;
               return (
@@ -362,7 +374,10 @@ const MLAILandingPage = ({ page }) => {
           </div>
         </div>
       </section>
-      <ContactForm id="contact" />
+      <ContactForm
+        id="contact"
+        headline={!isAi ? "Book A Free Consultation" : false}
+      />
     </>
   );
 };
