@@ -27,7 +27,7 @@ export { logo };
 export const companyDetails = {
   name: "ASHBUCK TECHNOLOGIES",
   address:
-    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
   phone: "+0000000000",
   email: "abc@example.com",
 };

@@ -14,6 +14,7 @@ import img1 from "../assets/images/aboutus-1.png";
 import img2 from "../assets/images/aboutus-2.png";
 import { Link } from "react-router-dom";
 import { ArrowLinkButton } from "../components/ArrowButtons";
+import TeamSection from "../components/TeamSection";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const WorkProcess = lazy(() => import("../components/WorkProcess"));
@@ -51,6 +52,7 @@ const AboutUs = () => {
       </section>
 
       <ServicesWeProvide />
+      <TeamSection />
       <section className="bg-[#F7F7F9]">
         <Testimonials />
       </section>

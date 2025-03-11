@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import { Navigate, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
 import { services } from "../data/services";
 
 const BlogsSection = lazy(() => import("../components/website/BlogsSection"));
@@ -46,6 +46,9 @@ const ServiceDetails = () => {
             </div>
           </div>
         </div>
+        <button className="primary-btn mx-auto mt-[4rem]">
+          <Link to={"/contact"}>Enquire Now</Link>{" "}
+        </button>
       </div>
       <BlogsSection />
     </div>

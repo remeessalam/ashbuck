@@ -23,6 +23,7 @@ import whyWorkWithUs2 from "../assets/images/whyworkwithus2.png";
 import whyWorkWithUs3 from "../assets/images/whyworkwithus3.png";
 import whyWorkWithUs4 from "../assets/images/whyworkwithus4.png";
 import { ArrowLinkButton } from "../components/ArrowButtons";
+import TeamSection from "../components/TeamSection";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const BlogsSection = lazy(() => import("../components/website/BlogsSection"));
