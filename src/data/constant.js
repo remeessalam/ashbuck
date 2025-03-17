@@ -26,9 +26,8 @@ export { logo };
 // company
 export const companyDetails = {
   name: "ASHBUCK TECHNOLOGIES",
-  address:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
-  phone: "+0000000000",
+  address: "Texas, USA",
+  phone: "+1 469 473 5711",
   email: "abc@example.com",
 };
 
