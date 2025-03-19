@@ -20,7 +20,7 @@ const Blogs = () => {
                 <img
                   src={blog.image}
                   alt={blog.title}
-                  className="group-hover:brightness-90 w-full rounded-xl transition-all duration-300"
+                  className="group-hover:brightness-90 w-full h-[20rem] object-cover rounded-xl transition-all duration-300"
                 />
               </Link>
               <Link
