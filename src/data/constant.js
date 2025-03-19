@@ -21,6 +21,9 @@ import NamazImg from "../assets/app-development-portfolio/namaz.png";
 import PoteaImg from "../assets/app-development-portfolio/potea.png";
 import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
 
+//blog images
+import blog1 from "../assets/images/blogs/1.jpg";
+import blog2 from "../assets/images/blogs/2.jpg";
 export { logo };
 
 // company
@@ -31,6 +34,10 @@ export const companyDetails = {
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=%2B14694735711&text&type=phone_number&app_absent=0",
   email: "info@ashbucktechnologies.com",
+  Instagram: "https://www.instagram.com/ashbucktechnologies",
+  Facebook: "https://www.facebook.com/ashbucktechnologies/",
+  Linkedin: "https://www.linkedin.com/company/ashbuck-technologies/",
+  Twitter: "https://x.com/AshbuckTech",
 };
 
 // working process
@@ -459,4 +466,121 @@ export const appPortfolio = [
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
+];
+
+export const blogData = [
+  {
+    id: 1,
+    title: "The Power of Auto Calling",
+    subtitle: "Boosting Efficiency in Business Communication",
+    image: blog1,
+    excerpt:
+      "In today’s fast-paced digital world, businesses are constantly looking for ways to improve efficiency and streamline operations. One such game-changing solution is auto calling, a technology that automates outbound calls, saving time and resources while enhancing customer engagement.",
+    content: `
+      <p class="mb-6">
+        In today’s fast-paced digital world, businesses are constantly looking for ways to improve efficiency and streamline operations. One such game-changing solution is auto calling, a technology that automates outbound calls, saving time and resources while enhancing customer engagement.
+      </p>
+  
+      <h2 class="text-xl font-semibold mb-4">What is Auto Calling?</h2>
+      <p class="mb-6">
+        Auto calling, also known as automated dialing, is a system that allows businesses to make pre-recorded or real-time calls to multiple recipients simultaneously. This is widely used in telemarketing, customer support, appointment reminders, and surveys. Businesses leverage this tool to reduce manual effort and improve communication efficiency.
+      </p>
+      
+      <h2 class="text-xl font-semibold mb-4">Benefits of Auto Calling</h2>
+      <ul class="mb-6 list-disc list-inside">
+        <li class="mb-2">
+          <span class="font-semibold">Time-Saving & Increased Productivity</span> – By eliminating the need for manual dialing, auto calling allows businesses to connect with a large audience quickly.
+        </li>
+        <li class="mb-2">
+          <span class="font-semibold">Cost-Effective Solution</span> – Reducing human effort leads to lower operational costs, making it a budget-friendly communication tool.
+        </li>
+        <li class="mb-2">
+          <span class="font-semibold">Consistency in Messaging</span> – Pre-recorded messages ensure that every customer receives the same clear and accurate information.
+        </li>
+        <li class="mb-2">
+          <span class="font-semibold">Improved Customer Engagement</span> – Auto calling can be personalized, making interactions more relevant and effective.
+        </li>
+        <li class="mb-2">
+          <span class="font-semibold">Data Tracking & Analysis</span> – Businesses can monitor call performance, track responses, and make data-driven decisions.
+        </li>
+      </ul>
+      
+      <h2 class="text-xl font-semibold mb-4">Final Thoughts</h2>
+      <p class="mb-6">
+        Auto calling is a revolutionary tool that enhances communication, improves efficiency, and helps businesses scale their outreach. Whether you’re a small startup or a large corporation, leveraging auto calling can streamline operations and boost customer satisfaction.
+      </p>
+    `,
+  },
+  {
+    id: 2,
+    title: "Recent Social Media Updates and Algorithm Changes",
+    subtitle: "A 2025 Overview",
+    image: blog2,
+    excerpt:
+      "The social media landscape is continually evolving, with platforms updating features and algorithms to enhance user experience and engagement...",
+    content: `
+      <h2 class="text-xl font-semibold mb-4">1. Meta Platforms (Facebook and Instagram)</h2>
+      <p class="mb-6"><span class="font-semibold">Content Moderation Policy Adjustments:</span> Meta has revised its content moderation policies, allowing users to describe LGBTQ+ identities as "mental illness," citing the promotion of free expression and simplification of policies. This change has sparked internal and external debates regarding its implications.</p>
+      <p class="mb-6"><span class="font-semibold">Discontinuation of Third-Party Fact-Checking:</span> Meta announced the end of its third-party fact-checking program in the U.S., transitioning to a "community notes" system where user-flagged misinformation is addressed by the community, aiming to reduce perceived censorship.</p>
+      
+      <h2 class="text-xl font-semibold mb-4">2. X (formerly Twitter)</h2>
+      <p class="mb-6"><span class="font-semibold">Algorithm Tweaks to Reduce Negativity:</span> Elon Musk revealed updates to X's algorithm to prioritize entertaining and informative content over negative posts, aiming to maximize "unregretted user-seconds." This shift seeks to enhance user experience by reducing the prominence of negative content.</p>
+      
+      <h2 class="text-xl font-semibold mb-4">3. YouTube</h2>
+      <p class="mb-6"><span class="font-semibold">Expanded 'Hype' Testing and Content Restrictions:</span> YouTube has introduced expanded 'Hype' testing features and implemented new restrictions on gambling-related content to ensure a safer and more engaging platform for users.</p>
+      
+      <h2 class="text-xl font-semibold mb-4">4. Instagram</h2>
+      <p class="mb-6"><span class="font-semibold">Profile Grid Update:</span> Instagram updated its profile grid to feature vertically-aligned thumbnails, offering a fresh aesthetic and potentially influencing how users curate their profiles.</p>
+      <p class="mb-6"><span class="font-semibold">Extended Reels Duration:</span> The platform has extended the maximum length of Reels to 3 minutes, providing creators with more flexibility in content creation.</p>
+      
+      <h2 class="text-xl font-semibold mb-4">5. WhatsApp</h2>
+      <p class="mb-6"><span class="font-semibold">Enhanced Features:</span> WhatsApp added more video effects and improved its reactions user interface, enriching the user communication experience.</p>
+      
+      <p class="mb-6">These updates reflect a broader trend towards enhancing user experience, promoting positive content, and adapting to changing user preferences. Staying informed about these changes is crucial for users and marketers aiming to navigate the dynamic social media environment effectively.</p>
+    `,
+  },
+
+  // {
+  //   id: 3,
+  //   title: "7 Reasons Why a Strong Digital Presence Is Essential in 2025",
+  //   subtitle: "Future-Proof Your Business Today",
+  //   image: blog3,
+  //   excerpt: "In today's interconnected world, having a robust digital presence is no longer optional—it's essential for business success...",
+  //   content: `
+  //     <h2 class="text-xl font-semibold mb-4">1. The Digital-First Consumer Mindset</h2>
+  //     <p class="mb-6">In 2025, more than ever, consumers are turning to digital platforms to research products and services before making decisions. Whether they're searching for reviews, comparing prices, or exploring options, your online presence is often their first impression of your business. A strong digital presence ensures you're visible, credible, and accessible when potential customers are looking for solutions you provide.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Key Insight:</span> Businesses with optimized websites, active social media profiles, and engaging content are more likely to attract and retain customers than those without a robust online strategy.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">2. Increased Competition in the Digital Space</h2>
+  //     <p class="mb-6">As more businesses recognize the importance of going digital, competition in online markets has become fiercer. Having a professional, user-friendly website and an active presence on platforms where your target audience spends their time is vital to standing out.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Actionable Tip:</span> Leverage search engine optimization (SEO) strategies, high-quality content, and targeted online advertising to ensure your brand remains competitive and easily discoverable.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">3. Mobile-First Indexing and User Behavior</h2>
+  //     <p class="mb-6">With the majority of internet traffic coming from mobile devices, it's crucial to have a mobile-optimized website. Mobile-first indexing by search engines like Google prioritizes sites that deliver excellent experiences on mobile devices, directly impacting your visibility and rankings.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Why It Matters:</span> A seamless mobile experience not only boosts your search engine rankings but also enhances user satisfaction, leading to higher conversion rates.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">4. The Role of Social Media and Engagement</h2>
+  //     <p class="mb-6">Social media continues to be a powerful tool for connecting with audiences, building brand loyalty, and driving traffic to your website. Platforms like Instagram, LinkedIn, and TikTok offer unique opportunities to showcase your products, share your story, and engage with customers in meaningful ways.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Pro Tip:</span> Use analytics to understand what content resonates most with your audience and tailor your social media strategy accordingly. Consistent posting and genuine engagement can significantly enhance your brand's visibility.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">5. The Rise of AI and Personalization</h2>
+  //     <p class="mb-6">Artificial Intelligence (AI) has transformed how businesses approach customer interactions. Personalized experiences, powered by AI-driven insights, can significantly enhance customer satisfaction and loyalty. From chatbots that provide instant assistance to tailored product recommendations, personalization is key in 2025.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Example:</span> Use AI tools to analyze user behavior on your website and deliver personalized offers or content that meets their specific needs.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">6. Building Trust Through Authenticity</h2>
+  //     <p class="mb-6">Consumers today value authenticity more than ever. A strong digital presence isn't just about being visible—it's about being relatable and trustworthy. Transparent communication, user-generated content, and responsive customer service can help build lasting relationships with your audience.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Tip for Success:</span> Showcase testimonials, case studies, and behind-the-scenes content to humanize your brand and connect with your audience on a deeper level.</p>
+
+  //     <h2 class="text-xl font-semibold mb-4">7. Future-Proofing Your Business</h2>
+  //     <p class="mb-6">A robust digital presence equips your business to adapt to changing trends and technologies. By investing in your online presence now, you're setting the stage for long-term success and resilience in a constantly shifting market.</p>
+
+  //     <p class="mb-6"><span class="font-semibold">Forward-Thinking Strategy:</span> Stay updated on emerging technologies like blockchain, the metaverse, and voice search to ensure your business remains relevant and competitive.</p>
+  //   `
+  // }
 ];

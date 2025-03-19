@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 import { services } from "../../data/services";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { companyDetails } from "../../data/constant";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -61,14 +63,17 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex gap-4 items-center sm:justify-end">
-            <Link to="/" className="link">
+            <Link to={companyDetails.Linkedin} className="link">
               <Linkedin className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
-            <Link to="/" className="link">
+            <Link to={companyDetails.Instagram} className="link">
               <Instagram className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
-            <Link to="/" className="link">
+            <Link to={companyDetails.Facebook} className="link">
               <Facebook className="w-6 h-6 link" strokeWidth={1.5} />
+            </Link>
+            <Link to={companyDetails.Twitter} className="link">
+              <FaXTwitter className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
           </div>
         </div>

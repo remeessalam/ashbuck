@@ -1,8 +1,6 @@
 import React from "react";
-import blog1 from "../assets/images/blogs/1.png";
-import blog2 from "../assets/images/blogs/2.png";
-import blog3 from "../assets/images/blogs/3.png";
 import { Link } from "react-router-dom";
+import { blogData } from "../data/constant";
 
 const Blogs = () => {
   return (
@@ -12,30 +10,26 @@ const Blogs = () => {
           Blogs
         </h1>
         <div className="max-w-5xl mx-auto mt-7 grid sm:grid-cols-2 gap-5">
-          {[blog1, blog2, blog3, blog1, blog2, blog3].map((item, i) => (
+          {blogData.map((blog, i) => (
             <div
-              key={item}
+              key={blog.id}
               data-aos="fade-up"
               className="group space-y-2 p-5 rounded-xl border border-black/20"
             >
-              <Link to={`/blogs/${i + 1}`}>
+              <Link to={`/blogs/${blog.title}`}>
                 <img
-                  src={item}
-                  alt=""
+                  src={blog.image}
+                  alt={blog.title}
                   className="group-hover:brightness-90 w-full rounded-xl transition-all duration-300"
                 />
               </Link>
               <Link
-                to={`/blogs/${i + 1}`}
+                to={`/blogs/${blog.title}`}
                 className="text-lg font-semibold line-clamp-2 group-hover:text-purpleColor transition-all duration-300"
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                {blog.title}
               </Link>
-              <p className="line-clamp-3">
-                Boluptatum dolores porro ex laborum officiis magnam deleniti ea
-                velit dolore inventore consequuntur voluptas sit doloribus vero?
-                Eos dolorum deleniti provident!
-              </p>
+              <p className="line-clamp-3">{blog.excerpt}</p>
             </div>
           ))}
         </div>
