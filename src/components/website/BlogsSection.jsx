@@ -82,7 +82,7 @@ const BlogsSection = () => {
       >
         {blogData.map((item, i) => (
           <Link
-            to="/blogs/1"
+            to={`/blogs/${item.title}`}
             key={item}
             className="keen-slider__slide space-y-2 p-5 rounded-xl border border-black/20"
           >
