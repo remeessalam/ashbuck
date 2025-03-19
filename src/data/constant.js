@@ -28,7 +28,7 @@ export { logo };
 
 // company
 export const companyDetails = {
-  name: "ASHBUCK TECHNOLOGIES",
+  name: "ASHBUCK TECHNOLOGIES LLC",
   address: "Texas, USA",
   phone: "+1 469 473 5711",
   whatsapplink:
@@ -231,7 +231,7 @@ export const testimonials = [
   {
     name: "Sarah K.",
     position: "Chief Technology Officer, Innovate Tech Solutions",
-    desc: `We partnered with ASHBUCK TECHNOLOGIES to implement blockchain technology for our business,
+    desc: `We partnered with ASHBUCK TECHNOLOGIES LLC to implement blockchain technology for our business,
 and the experience has been transformative. They helped us create a secure, scalable system
 that is now the backbone of our operations. The team’s deep understanding of blockchain
 technology made the process smooth, and we’ve already seen significant improvements in
@@ -241,7 +241,7 @@ efficiency and transparency.`,
   {
     name: "David L.",
     position: "Founder, FunPlay Games",
-    desc: `ASHBUCK TECHNOLOGIES turned our game concept into a reality. They not only helped us with
+    desc: `ASHBUCK TECHNOLOGIES LLC turned our game concept into a reality. They not only helped us with
 game development but also provided insightful suggestions that improved gameplay and user
 engagement. Their team delivered the project on time and exceeded our expectations. We’ve
 received positive feedback from players, and the game is performing well in the app stores.`,
@@ -250,7 +250,7 @@ received positive feedback from players, and the game is performing well in the 
   {
     name: "Emma W.",
     position: "CEO, GreenLeaf Enterprises",
-    desc: `Creating a custom app for our business was a challenge, but the team at ASHBUCK TECHNOLOGIES
+    desc: `Creating a custom app for our business was a challenge, but the team at ASHBUCK TECHNOLOGIES LLC
 made it an enjoyable experience. They listened to our needs and delivered a mobile app that’s
 intuitive, feature-rich, and well-received by our customers. From design to development, they
 provided excellent support and guidance throughout the process.`,
@@ -259,7 +259,7 @@ provided excellent support and guidance throughout the process.`,
   {
     name: "Mark T.",
     position: "Operations Manager, GlobalCorp",
-    desc: `Adopting RPA with ASHBUCK TECHNOLOGIES has streamlined many of our routine processes,
+    desc: `Adopting RPA with ASHBUCK TECHNOLOGIES LLC has streamlined many of our routine processes,
 saving us time and resources. Their team took the time to understand our unique requirements
 and designed bots that fit seamlessly into our operations. The results have been impressive —
 we’ve reduced human error and increased overall efficiency.`,
@@ -269,7 +269,7 @@ we’ve reduced human error and increased overall efficiency.`,
     name: "Jasmine D.",
     position: "Customer Support Head, BrightWave Tech",
     desc: `Integrating AI into our customer service operations has made a huge difference, and
-ASHBUCK TECHNOLOGIES was instrumental in making it happen. Their expertise in AI development
+ASHBUCK TECHNOLOGIES LLC was instrumental in making it happen. Their expertise in AI development
 helped us create a personalized experience for our customers, and we’ve seen higher
 engagement and satisfaction since the implementation. The team was responsive and highly
 skilled throughout the process.`,
@@ -278,7 +278,7 @@ skilled throughout the process.`,
   {
     name: "Chris H.",
     position: "Data Analyst, NextGen Enterprises",
-    desc: `Working with ASHBUCK TECHNOLOGIES was a pivotal moment for our company. They helped us
+    desc: `Working with ASHBUCK TECHNOLOGIES LLC was a pivotal moment for our company. They helped us
 harness the power of machine learning to better understand our data and make more informed
 decisions. Their solutions enabled us to predict trends and optimize our operations, leading to
 a measurable increase in productivity and profitability.`,
@@ -287,7 +287,7 @@ a measurable increase in productivity and profitability.`,
   {
     name: "Rebecca M.",
     position: "IT Manager, BrightTech Industries",
-    desc: `Before migrating to the cloud, our infrastructure was holding us back. ASHBUCK TECHNOLOGIES
+    desc: `Before migrating to the cloud, our infrastructure was holding us back. ASHBUCK TECHNOLOGIES LLC
 facilitated a smooth transition, providing expert guidance on cloud solutions and ensuring
 that everything was integrated seamlessly. Our new cloud-based systems are more scalable
 and cost-effective, allowing us to focus on growth without worrying about IT infrastructure.`,
@@ -296,7 +296,7 @@ and cost-effective, allowing us to focus on growth without worrying about IT inf
   {
     name: "Michael S.",
     position: "Marketing Director, EcoGreen Solutions",
-    desc: `We needed a modern, responsive website to represent our brand, and ASHBUCK TECHNOLOGIES
+    desc: `We needed a modern, responsive website to represent our brand, and ASHBUCK TECHNOLOGIES LLC
 delivered exactly what we envisioned. Their team crafted an aesthetically pleasing and user-
 friendly site that has increased our online presence. We’re already seeing more website traffic
 and conversions, and we couldn’t be happier with the final result.`,
@@ -306,7 +306,7 @@ and conversions, and we couldn’t be happier with the final result.`,
     name: "Lily P.",
     position: "Chief Marketing Officer, LuxeGoods Retail",
     desc: `Our company had a large amount of unstructured data, and we needed a way to extract
-valuable insights. ASHBUCK TECHNOLOGIES provided us with comprehensive data science solutions
+valuable insights. ASHBUCK TECHNOLOGIES LLC provided us with comprehensive data science solutions
 that enabled us to make smarter, data-driven decisions. Their team’s expertise in predictive
 analytics has helped us optimize our operations and improve overall business performance.`,
     // img: require("../assets/images/testimonials/9.jpg"),
@@ -343,7 +343,7 @@ we’ve seen a noticeable improvement in user engagement.`,
     name: "Olivia G.",
     position: "Customer Service Manager, ComTech Solutions",
     desc: `Integrating AI into our customer support calls has been a major win for our team. The AI-
-powered system built by ASHBUCK TECHNOLOGIES not only handles customer inquiries but also
+powered system built by ASHBUCK TECHNOLOGIES LLC not only handles customer inquiries but also
 provides accurate responses in real-time. This has freed up our support agents to handle more
 complex cases, while improving our customer satisfaction ratings.`,
     // img: require("../assets/images/testimonials/13.jpg"),
@@ -351,7 +351,7 @@ complex cases, while improving our customer satisfaction ratings.`,
   {
     name: "Jack L.",
     position: "Digital Marketing Director, FutureTrend Media",
-    desc: `ASHBUCK TECHNOLOGIES revamped our digital marketing strategy, and the results have been
+    desc: `ASHBUCK TECHNOLOGIES LLC revamped our digital marketing strategy, and the results have been
 outstanding. Their expertise in SEO, social media, and paid advertising has significantly
 boosted our online presence and brought in more qualified leads. They’re a trusted partner,
 and we continue to see positive results month after month.`,

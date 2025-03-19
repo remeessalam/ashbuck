@@ -162,7 +162,7 @@ const LandingPage = ({ page }) => {
       </section>
       <section className="pt-[4rem]">
         <h2 data-aos="fade-up" className="wrapper section-heading text-center">
-          How ASHBUCK TECHNOLOGIES helps you deliver the best results
+          How ASHBUCK TECHNOLOGIES LLC helps you deliver the best results
         </h2>
         <div
           data-aos="fade-up"
@@ -276,8 +276,8 @@ const LandingPage = ({ page }) => {
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
                 <p className="md:text-lg text-white font-semibold">
-                  At ASHBUCK TECHNOLOGIES, we deliver excellence across web and
-                  app development, UI/UX design, game development, and
+                  At ASHBUCK TECHNOLOGIES LLC, we deliver excellence across web
+                  and app development, UI/UX design, game development, and
                   blockchain solutions. Our expertise ensures innovative,
                   scalable results tailored to your goals.
                 </p>
@@ -326,10 +326,10 @@ const LandingPage = ({ page }) => {
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
                 <p className="md:text-lg text-white font-semibold">
-                  At ASHBUCK TECHNOLOGIES, we deliver tailored solutions across
-                  industries. From enhancing patient care in Healthcare to
-                  empowering E-commerce and driving innovation in Technology, we
-                  cater to diverse business needs with precision.
+                  At ASHBUCK TECHNOLOGIES LLC, we deliver tailored solutions
+                  across industries. From enhancing patient care in Healthcare
+                  to empowering E-commerce and driving innovation in Technology,
+                  we cater to diverse business needs with precision.
                 </p>
                 <Quote
                   className="size-10 fill-white/20 self-end mt-3"

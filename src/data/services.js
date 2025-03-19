@@ -16,7 +16,7 @@ export const services = [
         Empowering Businesses with Blockchain Technology
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we harness the power of blockchain to deliver secure, transparent, and efficient solutions. Our custom smart contracts and decentralized applications are built to drive innovation and trust in your business processes.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we harness the power of blockchain to deliver secure, transparent, and efficient solutions. Our custom smart contracts and decentralized applications are built to drive innovation and trust in your business processes.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Blockchain Expertise:</h2>
       <ul class="list-disc pl-6">
@@ -79,7 +79,7 @@ export const services = [
         Immersive Gaming Experiences Crafted with Passion
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we transform game concepts into immersive realities. Our dedicated team of developers and artists works relentlessly to create games that captivate players and push technological boundaries.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we transform game concepts into immersive realities. Our dedicated team of developers and artists works relentlessly to create games that captivate players and push technological boundaries.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Game Development Expertise:</h2>
       <ul class="list-disc pl-6">
@@ -142,7 +142,7 @@ export const services = [
         Seamless Mobile Experiences for a Connected World
       </h2>
       <p class="mb-10">
-        In today's mobile-driven environment, <span class="font-semibold">ASHBUCK TECHNOLOGIES</span> delivers high-performance apps that combine intuitive design with robust functionality, ensuring you stay ahead in the digital age.
+        In today's mobile-driven environment, <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span> delivers high-performance apps that combine intuitive design with robust functionality, ensuring you stay ahead in the digital age.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our App Development Expertise:</h2>
       <ul class="list-disc pl-6">
@@ -197,7 +197,7 @@ export const services = [
         Streamline Your Business with RPA
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we implement Robotic Process Automation solutions that reduce manual workload and improve operational accuracy, freeing your team to focus on strategic initiatives.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we implement Robotic Process Automation solutions that reduce manual workload and improve operational accuracy, freeing your team to focus on strategic initiatives.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our RPA Expertise:</h2>
       <ul class="list-disc pl-6">
@@ -257,7 +257,7 @@ export const services = [
         Innovate with AI-Powered Solutions
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we develop artificial intelligence systems that enhance efficiency, drive automation, and offer deep insights into your business data.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we develop artificial intelligence systems that enhance efficiency, drive automation, and offer deep insights into your business data.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our AI Development Capabilities:</h2>
       <ul class="list-disc pl-6">
@@ -317,7 +317,7 @@ export const services = [
         Harness the Power of Machine Learning
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we transform your data into strategic insights. Our machine learning models empower businesses to predict trends and optimize performance.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we transform your data into strategic insights. Our machine learning models empower businesses to predict trends and optimize performance.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Machine Learning Approach:</h2>
       <ul class="list-disc pl-6">
@@ -377,7 +377,7 @@ export const services = [
         Transform Your Infrastructure with Cloud Computing
       </h2>
       <p class="mb-10">
-        <span class="font-semibold">ASHBUCK TECHNOLOGIES</span> delivers cloud solutions that enhance scalability, security, and efficiency. Our cloud computing services are designed to support your business growth and digital transformation.
+        <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span> delivers cloud solutions that enhance scalability, security, and efficiency. Our cloud computing services are designed to support your business growth and digital transformation.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Cloud Service Offerings:</h2>
       <ul class="list-disc pl-6">
@@ -437,7 +437,7 @@ export const services = [
         Create a Strong Online Presence with Our Tailored Web Solutions
       </h2>
       <p class="mb-10">
-        In today’s digital era, your website serves as the cornerstone of your online presence. At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we build modern websites that engage users and drive business growth.
+        In today’s digital era, your website serves as the cornerstone of your online presence. At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we build modern websites that engage users and drive business growth.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Web Development Offerings:</h2>
       <ul class="list-disc pl-6">
@@ -500,7 +500,7 @@ export const services = [
         Unlock the Value of Your Data
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we convert complex data into clear insights that help you make informed business decisions.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we convert complex data into clear insights that help you make informed business decisions.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Data Science Methodology:</h2>
       <ul class="list-disc pl-6">
@@ -560,7 +560,7 @@ export const services = [
         Harness the Power of Language with NLP
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we build NLP solutions that enable machines to understand, interpret, and respond to human language, unlocking new possibilities in automation and customer engagement.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we build NLP solutions that enable machines to understand, interpret, and respond to human language, unlocking new possibilities in automation and customer engagement.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our NLP Solutions Include:</h2>
       <ul class="list-disc pl-6">
@@ -620,7 +620,7 @@ export const services = [
         Seamless Transition to the Cloud
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we specialize in cloud migration services that ensure a smooth and secure transition of your digital assets, reducing downtime and mitigating risks.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we specialize in cloud migration services that ensure a smooth and secure transition of your digital assets, reducing downtime and mitigating risks.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Cloud Migration Process:</h2>
       <ul class="list-disc pl-6">
@@ -680,7 +680,7 @@ export const services = [
         Crafting Exceptional Digital Experiences
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, we blend creativity with user-centric design to deliver interfaces that are not only visually stunning but also highly functional.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, we blend creativity with user-centric design to deliver interfaces that are not only visually stunning but also highly functional.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our UI/UX Design Services:</h2>
       <ul class="list-disc pl-6">
@@ -740,7 +740,7 @@ export const services = [
         Transform Your Communication with AI-Powered Calling
       </h2>
       <p class="mb-10">
-        <span class="font-semibold">ASHBUCK TECHNOLOGIES</span> offers cutting-edge calling solutions that integrate artificial intelligence to streamline customer interactions and boost productivity.
+        <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span> offers cutting-edge calling solutions that integrate artificial intelligence to streamline customer interactions and boost productivity.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Calling Solutions Include:</h2>
       <ul class="list-disc pl-6">
@@ -806,7 +806,7 @@ export const services = [
         Elevate Your Brand with Digital Marketing
       </h2>
       <p class="mb-10">
-        At <span class="font-semibold">ASHBUCK TECHNOLOGIES</span>, our digital marketing solutions are designed to increase your online visibility, engage your target audience, and drive measurable results.
+        At <span class="font-semibold">ASHBUCK TECHNOLOGIES LLC</span>, our digital marketing solutions are designed to increase your online visibility, engage your target audience, and drive measurable results.
       </p>
       <h2 class="text-xl font-semibold mb-4">Our Digital Marketing Strategies:</h2>
       <ul class="list-disc pl-6">
