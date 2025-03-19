@@ -28,6 +28,8 @@ export const companyDetails = {
   name: "ASHBUCK TECHNOLOGIES",
   address: "Texas, USA",
   phone: "+1 469 473 5711",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=%2B14694735711&text&type=phone_number&app_absent=0",
   email: "abc@example.com",
 };
 
