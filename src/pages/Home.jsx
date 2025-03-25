@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import { ReactComponent as icon1 } from "../assets/svg/services/ai.svg";
 import { ReactComponent as icon2 } from "../assets/svg/services/digital.svg";
+import { ReactComponent as icon3 } from "../assets/svg/services/App Development.svg";
+import { ReactComponent as icon4 } from "../assets/svg/services/Web Development.svg";
 import { Link } from "react-router-dom";
 import howWeBuildCover from "../assets/images/how-we-build.jpeg";
 import whyWorkWithUs1 from "../assets/images/whyworkwithus1.png";
@@ -46,6 +48,20 @@ const bannerServices = [
     icon: icon2,
     desc: "Digital marketing leverages SEO, content marketing, social media, and paid advertising to boost brand visibility, engage audiences, and drive business growth.",
     landingPageLink: "/digital-marketing",
+  },
+  {
+    id: 2,
+    title: "App Development",
+    icon: icon3,
+    desc: "Creating intuitive and high-performing mobile apps for Android and iOS platforms.",
+    landingPageLink: "/services/App Development",
+  },
+  {
+    id: 4,
+    title: "Web Development",
+    icon: icon4,
+    desc: "Building responsive, scalable, and modern websites tailored to your business needs.",
+    landingPageLink: "/services/Web Development",
   },
 ];
 

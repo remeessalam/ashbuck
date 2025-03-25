@@ -5,6 +5,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import { companyDetails } from "../../data/constant";
 
 // Fix for default icon
 let DefaultIcon = L.icon({
@@ -20,7 +21,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
   // Use useMemo to memoize the location array
-  const location = useMemo(() => [19.228762, 73.126846], []);
+  const location = useMemo(() => [31.9686, 99.9018], []);
 
   const mapRef = useRef(); // Reference to the map
 
@@ -45,7 +46,7 @@ const MapComponent = () => {
         attribution="© OpenStreetMap contributors"
       />
       <Marker position={location}>
-        <Popup>Your location</Popup>
+        <Popup>{companyDetails.address}</Popup>
       </Marker>
     </MapContainer>
   );
