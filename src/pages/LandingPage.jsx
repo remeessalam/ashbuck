@@ -134,7 +134,11 @@ const LandingPage = ({ page }) => {
       <Portfolio page={page} />
       <section className="py-[4rem] bg-[#D8D8D8A3]">
         <div className="wrapper space-y-3">
-          <h2 data-aos="fade-up" className="section-heading text-center">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="-200"
+            className="section-heading text-center"
+          >
             Industries We Serve
           </h2>
           <p data-aos="fade-up" className="text-center">

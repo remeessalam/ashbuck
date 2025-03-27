@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../data/constant";
+import { companyDetails, logo } from "../data/constant";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Thankyou = () => {
   return (
     <div className="min-h-screen flex flex-col justify-between relative bg-gradient-to-b from-[#f8e4de] to-[#f5f5f5]">
-      <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-white">
+      <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-black">
         <div className="flex wrapper items-center gap-8 justify-between">
           <Link to="/" className="cursor-pointer">
             <img
@@ -15,7 +16,7 @@ const Thankyou = () => {
               alt="logo"
               width="75"
               height="75"
-              className="h-[3.5rem] lg:h-[5rem] object-contain"
+              className="w-[8.5rem] lg:w-[12rem] object-contain"
             />
           </Link>
         </div>
@@ -39,14 +40,17 @@ const Thankyou = () => {
             Copyright &copy; {new Date().getFullYear()} All rights reserved.
           </p>
           <div className="flex gap-4 items-center sm:justify-end">
-            <Link to="/" className="link">
+            <Link to={companyDetails.Linkedin} className="link">
               <Linkedin className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
-            <Link to="/" className="link">
+            <Link to={companyDetails.Instagram} className="link">
               <Instagram className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
-            <Link to="/" className="link">
+            <Link to={companyDetails.Facebook} className="link">
               <Facebook className="w-6 h-6 link" strokeWidth={1.5} />
+            </Link>
+            <Link to={companyDetails.Twitter} className="link">
+              <FaXTwitter className="w-6 h-6 link" strokeWidth={1.5} />
             </Link>
           </div>
         </div>
