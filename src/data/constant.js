@@ -314,8 +314,7 @@ analytics has helped us optimize our operations and improve overall business per
   {
     name: "Daniel R.",
     position: "Head of Technology, VoiceTech Solutions",
-    desc: `We were looking for a solution to automate our customer interactions, and [Company
-Name] provided the perfect NLP-powered solution. Their technology enabled us to deploy a
+    desc: `We were looking for a solution to automate our customer interactions, and ASHBUCK TECHNOLOGIES LLC provided the perfect NLP-powered solution. Their technology enabled us to deploy a
 highly efficient virtual assistant, which has improved customer engagement and streamlined
 our support process. We’ve already seen a marked reduction in response times.`,
     // img: require("../assets/images/testimonials/10.jpg"),
@@ -323,8 +322,7 @@ our support process. We’ve already seen a marked reduction in response times.`
   {
     name: "Nina F.",
     position: "Chief Technology Officer, WebFlow Enterprises",
-    desc: `Moving our data and applications to the cloud was a huge undertaking, but [Company
-Name] made the entire process seamless. From the initial assessment to post-migration
+    desc: `Moving our data and applications to the cloud was a huge undertaking, but ASHBUCK TECHNOLOGIES LLC made the entire process seamless. From the initial assessment to post-migration
 support, they handled every detail and ensured everything was up and running without
 disruption. Our systems are now more flexible and efficient, and we have full confidence in
 our new cloud infrastructure.`,
@@ -333,8 +331,7 @@ our new cloud infrastructure.`,
   {
     name: "Joshua E.",
     position: "CEO, Urban Style Apparel",
-    desc: `The UI/UX redesign of our website and mobile app was a success, thanks to [Company
-Name]. They worked closely with us to understand our audience and objectives, and the
+    desc: `The UI/UX redesign of our website and mobile app was a success, thanks to ASHBUCK TECHNOLOGIES LLC. They worked closely with us to understand our audience and objectives, and the
 results speak for themselves. Our users now have a smoother, more intuitive experience, and
 we’ve seen a noticeable improvement in user engagement.`,
     // img: require("../assets/images/testimonials/12.jpg"),
